@@ -1,0 +1,7 @@
+dispatch:
+  - url: "*/crud/*"
+    service: crud-service
+  - url: "*/ui/*"
+    service: ui-service
+  - url: "/*"
+    service: ui-service
